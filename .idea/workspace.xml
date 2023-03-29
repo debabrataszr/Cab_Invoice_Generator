@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a33dc466-3843-4544-ac9e-bd88107e64ad" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ride.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/InvoiceGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/InvoiceGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/InvoiceServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InvoiceServiceTest.java" afterDir="false" />
@@ -17,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,6 +55,10 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example" />
+      <recent name="" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -61,7 +66,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InvoiceServiceTest.givenLessDistanceOrTime_ShouldReturnMinFare">
+  <component name="RunManager" selected="JUnit.InvoiceServiceTest">
     <configuration name="InvoiceServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cab_Invoice_Generator" />
       <option name="PACKAGE_NAME" value="" />
@@ -81,10 +86,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InvoiceServiceTest.givenMultipleRides_ShouldReturnTotalFare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cab_Invoice_Generator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InvoiceServiceTest" />
+      <option name="METHOD_NAME" value="givenMultipleRides_ShouldReturnTotalFare" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.InvoiceServiceTest.givenLessDistanceOrTime_ShouldReturnMinFare" />
         <item itemvalue="JUnit.InvoiceServiceTest" />
+        <item itemvalue="JUnit.InvoiceServiceTest.givenMultipleRides_ShouldReturnTotalFare" />
+        <item itemvalue="JUnit.InvoiceServiceTest.givenLessDistanceOrTime_ShouldReturnMinFare" />
       </list>
     </recent_temporary>
   </component>
