@@ -1,4 +1,5 @@
 import org.example.InvoiceGenerator;
+import org.example.InvoiceSummary;
 import org.example.Ride;
 import org.junit.Assert;
 import org.junit.Before;
@@ -33,12 +34,13 @@ public class InvoiceServiceTest {
     }
 
     @Test
-    public void givenMultipleRides_ShouldReturnTotalFare() {
+    public void givenMultipleRides_ShouldReturnInvoiceSummary() {
         InvoiceGenerator invoiceGenerator = new InvoiceGenerator();
         Ride[] rides = {new Ride(2.0, 5),
                 new Ride(0.1, 1),
         };
-        double fare = invoiceGenerator.calculateFare(rides);
-        Assert.assertEquals(30, fare, 0.0);
+        InvoiceSummary summary = invoiceGenerator.calculateFare(rides);
+        InvoiceSummary expectedinvoiceSummary = new InvoiceSummary(2, 30.0);
+        Assert.assertEquals(expectedinvoiceSummary, summary);
     }
 }
