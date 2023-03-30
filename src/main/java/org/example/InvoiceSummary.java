@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Objects;
+
 public class InvoiceSummary {
     private final int numofRides;
     private final double totalFare;
@@ -19,5 +21,10 @@ public class InvoiceSummary {
         return numofRides == that.numofRides &&
                 Double.compare(that.totalFare, totalFare) == 0 &&
                 Double.compare(that.averageFare, averageFare) == 0;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(numofRides, totalFare, averageFare);
     }
 }

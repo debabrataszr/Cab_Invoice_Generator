@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a33dc466-3843-4544-ac9e-bd88107e64ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/InvoiceSummary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/InvoiceGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/InvoiceGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/InvoiceSummary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/InvoiceSummary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/InvoiceServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InvoiceServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +66,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InvoiceServiceTest.givenMultipleRides_ShouldReturnInvoiceSummary">
+  <component name="RunManager" selected="JUnit.InvoiceServiceTest">
     <configuration name="InvoiceServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cab_Invoice_Generator" />
       <option name="PACKAGE_NAME" value="" />
@@ -108,8 +108,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.InvoiceServiceTest.givenMultipleRides_ShouldReturnInvoiceSummary" />
         <item itemvalue="JUnit.InvoiceServiceTest" />
+        <item itemvalue="JUnit.InvoiceServiceTest.givenMultipleRides_ShouldReturnInvoiceSummary" />
         <item itemvalue="JUnit.InvoiceServiceTest.givenMultipleRides_ShouldReturnTotalFare" />
         <item itemvalue="JUnit.InvoiceServiceTest.givenLessDistanceOrTime_ShouldReturnMinFare" />
       </list>
